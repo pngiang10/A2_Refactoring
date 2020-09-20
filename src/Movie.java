@@ -23,7 +23,7 @@ public class Movie {
         return _priceCode;
     }
     
-    public void setPriceCode(int arg) {
+    public void setPriceCode(int arg) { //SUB-CLASSES IS USED TO CREATE MOVIE TYPES SO SETPRICECODE IS OBSOLETE -> NO NEED FOR ERRHANDL
         _priceCode = arg;
     }*/
     

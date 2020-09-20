@@ -20,7 +20,7 @@ public class Customer {
         return _name;
     }
     
-    public String prepareStatement() {
+    public String getStatement() {
     	Enumeration<Rental> rentals      = Collections.enumeration(_rentals); //_rentals.elements();
         String  rentalStatement          = "Rental Record for " + getName() + "\n";
         int     frequentRenterPoints 	 = 0;

@@ -22,7 +22,7 @@ public class Controller {
 		customer1.addRental(rental1);
 		customer1.addRental(rental2);
 		
-		System.out.println(customer1.prepareStatement());
+		System.out.println(customer1.getStatement());
 		
 		System.out.println();
 		
