@@ -27,9 +27,10 @@ public class Controller {
 		System.out.println();
 		
 		
+		customer1.printXMLStatement();
+		System.out.println();
 		
-		
-		//SECOND TEST SET USING OG classes
+		/*SECOND TEST SET USING OG classes
 		System.out.println("OG Code: ");
 		//Regular
 		Movie_OG movie1_OG = new Movie_OG("Lord of the Ring Ring", 0);
@@ -41,7 +42,6 @@ public class Controller {
 		//Childrens
 		//Movie_OG movie2 = new Movie_OG("Lord of the Ring Ring 2", 2);
 		
-		
 		Rental_OG rental1_OG = new Rental_OG(movie1_OG, 10);
 		Rental_OG rental2_OG = new Rental_OG(movie2_OG, 15);
 		
@@ -51,6 +51,7 @@ public class Controller {
 		customer1_OG.addRental(rental2_OG);
 		
 		System.out.println(customer1_OG.statement());
+		*/
 	}
 
 }

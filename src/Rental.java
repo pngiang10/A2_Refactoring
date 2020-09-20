@@ -40,4 +40,12 @@ public class Rental { //MOVE some method here
                   "\t" + String.valueOf(getRentAmount()) + "\n";
         return result;
     }
+    
+    public String getRentalFiguresInXML() {
+    	String result = "";
+    	// show figures for this rental //METHOD EXTRACTION
+        result += "\t \t <movie> " + _movie.getTitle() + " </movie> \n" +
+                  "\t \t \t <movieRentalFee> " + String.valueOf(getRentAmount()) + " </movieRentalFee> \n";
+        return result;
+    }
 }
