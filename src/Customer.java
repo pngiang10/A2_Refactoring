@@ -61,8 +61,6 @@ public class Customer {
             Rental rental       = (Rental) rentals.nextElement(); //RENAME
             
             frequentRenterPoints += rental.getFrequentPoint();
-            
-            Movie movie = rental.getMovie();
 
             System.out.print(rental.getRentalFiguresInXML());
             
